@@ -49,7 +49,7 @@
         </div>
     </nav>
 
-    //Form
+    
     <h2>First Name</h2>
         <form method="post" action="process.php" enctype="multipart/form-data">
 	<input type="text" name="firstName" placeholder="First Name">
