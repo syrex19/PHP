@@ -33,7 +33,8 @@ $_SESSION['p'] = $p = $_POST['firstModel'];
 
 
 
-$cnt = mysqli_connect('localhost', 'root', 'root','cardata');
+//$cnt = mysqli_connect("localhost", "root", "root", "cardata");
+		$cnt = mysqli_connect("localhost", "fssa", "Webdevfun1!", "fssa");
 
 $qry ="insert into carinfo (firstName, lastName,email,firstModel) values('$n', '$e','$u','$p')";
 

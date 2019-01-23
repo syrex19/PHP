@@ -5,18 +5,19 @@
         body{
             text-align: center;
             font-family: cursive;
+           
         }
         .background{
             
-            background-image: url(img/Silhouette%20car.jpg);
+            background-image:url(img/automobile%20adventure.jpg)
             background-repeat: no-repeat;
             background-size: auto;
+            
+            
+            
         }
                    
-        .carousel-inner img{
-            margin: auto;
-            width: 50%}
-    
+        
     </style>
     <title>Request Access to Forum</title>
 
@@ -40,9 +41,9 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Forums</a></li>
+                <li><a href="reference.php">Register</a></li>
+                <li><a href="display.php">User List</a></li>
+                
 
 
             </ul>

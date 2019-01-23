@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <style background=img src="img/Silhouette%20car.jpg"></style>
+    <style>
+        .background{
+            background-size: auto;
+            background-image:url(img/automobile%20adventure.jpg)
+            
+        
+        }
+        .centertext{
+        text-align:center;
+        text-decoration-color: darkorange;    
+        
+        }
+        
+       
+        
+      
+
+    </style>
     <title></title>
 </head>
-<body>
-    
-    <table>
-	<tr>
-		<th>image</th><th>name</th><th>email</th><th>user</th>
-	</tr>
 
-	<?php
+<body>
+<div>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>First Model Collected</th>
+        </tr>
+        <?php
 		//connect to database
-		$cnt = mysqli_connect("localhost", "root", "root", "cardata");
+//		$cnt = mysqli_connect("localhost", "root", "root", "cardata");
+		$cnt = mysqli_connect("localhost", "fssa", "Webdevfun1!", "fssa");
 		//sql statement to capture all data from a table
 		$sql = "SELECT * FROM carinfo";
 		//query by connecting and adding sql statement
@@ -27,9 +49,8 @@
 		//close the connection
 		mysqli_close($cnt); // Closing Connection
 	?>
-</table>
-
+    </table>
+</div>
 </body>
+
 </html>
-
-
